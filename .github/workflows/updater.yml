@@ -34,42 +34,42 @@ jobs:
       - name: Download file
         id: download_file
         run: |
-          curl --follow --retry 2 -O cloudflare_0.txt https://archive.org/download/cloudflare_domains/cloudflare_0.txt
-          curl --follow --retry 2 -O cloudflare_1.txt https://archive.org/download/cloudflare_domains/cloudflare_1.txt
-          curl --follow --retry 2 -O cloudflare_2.txt https://archive.org/download/cloudflare_domains/cloudflare_2.txt
-          curl --follow --retry 2 -O cloudflare_3.txt https://archive.org/download/cloudflare_domains/cloudflare_3.txt
-          curl --follow --retry 2 -O cloudflare_4.txt https://archive.org/download/cloudflare_domains/cloudflare_4.txt
-          curl --follow --retry 2 -O cloudflare_5.txt https://archive.org/download/cloudflare_domains/cloudflare_5.txt
-          curl --follow --retry 2 -O cloudflare_6.txt https://archive.org/download/cloudflare_domains/cloudflare_6.txt
-          curl --follow --retry 2 -O cloudflare_7.txt https://archive.org/download/cloudflare_domains/cloudflare_7.txt
-          curl --follow --retry 2 -O cloudflare_8.txt https://archive.org/download/cloudflare_domains/cloudflare_8.txt
-          curl --follow --retry 2 -O cloudflare_9.txt https://archive.org/download/cloudflare_domains/cloudflare_9.txt
-          curl --follow --retry 2 -O cloudflare_a.txt https://archive.org/download/cloudflare_domains/cloudflare_a.txt
-          curl --follow --retry 2 -O cloudflare_b.txt https://archive.org/download/cloudflare_domains/cloudflare_b.txt
-          curl --follow --retry 2 -O cloudflare_c.txt https://archive.org/download/cloudflare_domains/cloudflare_c.txt
-          curl --follow --retry 2 -O cloudflare_d.txt https://archive.org/download/cloudflare_domains/cloudflare_d.txt
-          curl --follow --retry 2 -O cloudflare_e.txt https://archive.org/download/cloudflare_domains/cloudflare_e.txt
-          curl --follow --retry 2 -O cloudflare_f.txt https://archive.org/download/cloudflare_domains/cloudflare_f.txt
-          curl --follow --retry 2 -O cloudflare_g.txt https://archive.org/download/cloudflare_domains/cloudflare_g.txt
-          curl --follow --retry 2 -O cloudflare_h.txt https://archive.org/download/cloudflare_domains/cloudflare_h.txt
-          curl --follow --retry 2 -O cloudflare_i.txt https://archive.org/download/cloudflare_domains/cloudflare_i.txt
-          curl --follow --retry 2 -O cloudflare_j.txt https://archive.org/download/cloudflare_domains/cloudflare_j.txt
-          curl --follow --retry 2 -O cloudflare_k.txt https://archive.org/download/cloudflare_domains/cloudflare_k.txt
-          curl --follow --retry 2 -O cloudflare_l.txt https://archive.org/download/cloudflare_domains/cloudflare_l.txt
-          curl --follow --retry 2 -O cloudflare_m.txt https://archive.org/download/cloudflare_domains/cloudflare_m.txt
-          curl --follow --retry 2 -O cloudflare_n.txt https://archive.org/download/cloudflare_domains/cloudflare_n.txt
-          curl --follow --retry 2 -O cloudflare_o.txt https://archive.org/download/cloudflare_domains/cloudflare_o.txt
-          curl --follow --retry 2 -O cloudflare_p.txt https://archive.org/download/cloudflare_domains/cloudflare_p.txt
-          curl --follow --retry 2 -O cloudflare_q.txt https://archive.org/download/cloudflare_domains/cloudflare_q.txt
-          curl --follow --retry 2 -O cloudflare_r.txt https://archive.org/download/cloudflare_domains/cloudflare_r.txt
-          curl --follow --retry 2 -O cloudflare_s.txt https://archive.org/download/cloudflare_domains/cloudflare_s.txt
-          curl --follow --retry 2 -O cloudflare_t.txt https://archive.org/download/cloudflare_domains/cloudflare_t.txt
-          curl --follow --retry 2 -O cloudflare_u.txt https://archive.org/download/cloudflare_domains/cloudflare_u.txt
-          curl --follow --retry 2 -O cloudflare_v.txt https://archive.org/download/cloudflare_domains/cloudflare_v.txt
-          curl --follow --retry 2 -O cloudflare_w.txt https://archive.org/download/cloudflare_domains/cloudflare_w.txt
-          curl --follow --retry 2 -O cloudflare_x.txt https://archive.org/download/cloudflare_domains/cloudflare_x.txt
-          curl --follow --retry 2 -O cloudflare_y.txt https://archive.org/download/cloudflare_domains/cloudflare_y.txt
-          curl --follow --retry 2 -O cloudflare_z.txt https://archive.org/download/cloudflare_domains/cloudflare_z.txt
+          curl -L --retry 2 -o cloudflare_0.txt https://archive.org/download/cloudflare_domains/cloudflare_0.txt
+          curl -L --retry 2 -o cloudflare_1.txt https://archive.org/download/cloudflare_domains/cloudflare_1.txt
+          curl -L --retry 2 -o cloudflare_2.txt https://archive.org/download/cloudflare_domains/cloudflare_2.txt
+          curl -L --retry 2 -o cloudflare_3.txt https://archive.org/download/cloudflare_domains/cloudflare_3.txt
+          curl -L --retry 2 -o cloudflare_4.txt https://archive.org/download/cloudflare_domains/cloudflare_4.txt
+          curl -L --retry 2 -o cloudflare_5.txt https://archive.org/download/cloudflare_domains/cloudflare_5.txt
+          curl -L --retry 2 -o cloudflare_6.txt https://archive.org/download/cloudflare_domains/cloudflare_6.txt
+          curl -L --retry 2 -o cloudflare_7.txt https://archive.org/download/cloudflare_domains/cloudflare_7.txt
+          curl -L --retry 2 -o cloudflare_8.txt https://archive.org/download/cloudflare_domains/cloudflare_8.txt
+          curl -L --retry 2 -o cloudflare_9.txt https://archive.org/download/cloudflare_domains/cloudflare_9.txt
+          curl -L --retry 2 -o cloudflare_a.txt https://archive.org/download/cloudflare_domains/cloudflare_a.txt
+          curl -L --retry 2 -o cloudflare_b.txt https://archive.org/download/cloudflare_domains/cloudflare_b.txt
+          curl -L --retry 2 -o cloudflare_c.txt https://archive.org/download/cloudflare_domains/cloudflare_c.txt
+          curl -L --retry 2 -o cloudflare_d.txt https://archive.org/download/cloudflare_domains/cloudflare_d.txt
+          curl -L --retry 2 -o cloudflare_e.txt https://archive.org/download/cloudflare_domains/cloudflare_e.txt
+          curl -L --retry 2 -o cloudflare_f.txt https://archive.org/download/cloudflare_domains/cloudflare_f.txt
+          curl -L --retry 2 -o cloudflare_g.txt https://archive.org/download/cloudflare_domains/cloudflare_g.txt
+          curl -L --retry 2 -o cloudflare_h.txt https://archive.org/download/cloudflare_domains/cloudflare_h.txt
+          curl -L --retry 2 -o cloudflare_i.txt https://archive.org/download/cloudflare_domains/cloudflare_i.txt
+          curl -L --retry 2 -o cloudflare_j.txt https://archive.org/download/cloudflare_domains/cloudflare_j.txt
+          curl -L --retry 2 -o cloudflare_k.txt https://archive.org/download/cloudflare_domains/cloudflare_k.txt
+          curl -L --retry 2 -o cloudflare_l.txt https://archive.org/download/cloudflare_domains/cloudflare_l.txt
+          curl -L --retry 2 -o cloudflare_m.txt https://archive.org/download/cloudflare_domains/cloudflare_m.txt
+          curl -L --retry 2 -o cloudflare_n.txt https://archive.org/download/cloudflare_domains/cloudflare_n.txt
+          curl -L --retry 2 -o cloudflare_o.txt https://archive.org/download/cloudflare_domains/cloudflare_o.txt
+          curl -L --retry 2 -o cloudflare_p.txt https://archive.org/download/cloudflare_domains/cloudflare_p.txt
+          curl -L --retry 2 -o cloudflare_q.txt https://archive.org/download/cloudflare_domains/cloudflare_q.txt
+          curl -L --retry 2 -o cloudflare_r.txt https://archive.org/download/cloudflare_domains/cloudflare_r.txt
+          curl -L --retry 2 -o cloudflare_s.txt https://archive.org/download/cloudflare_domains/cloudflare_s.txt
+          curl -L --retry 2 -o cloudflare_t.txt https://archive.org/download/cloudflare_domains/cloudflare_t.txt
+          curl -L --retry 2 -o cloudflare_u.txt https://archive.org/download/cloudflare_domains/cloudflare_u.txt
+          curl -L --retry 2 -o cloudflare_v.txt https://archive.org/download/cloudflare_domains/cloudflare_v.txt
+          curl -L --retry 2 -o cloudflare_w.txt https://archive.org/download/cloudflare_domains/cloudflare_w.txt
+          curl -L --retry 2 -o cloudflare_x.txt https://archive.org/download/cloudflare_domains/cloudflare_x.txt
+          curl -L --retry 2 -o cloudflare_y.txt https://archive.org/download/cloudflare_domains/cloudflare_y.txt
+          curl -L --retry 2 -o cloudflare_z.txt https://archive.org/download/cloudflare_domains/cloudflare_z.txt
 
       - name: Check File Size and Upload
         id: update_git
@@ -82,5 +82,3 @@ jobs:
           git add .
           git commit -m "Update"
           git push origin main
-
-
