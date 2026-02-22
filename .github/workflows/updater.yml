@@ -2,7 +2,7 @@ name: Daily Data Import
 
 on:
   schedule:
-    - cron: '1 * * * *'
+    - cron: '1 */6 * * *'
 
 jobs:
   import_update_data:
